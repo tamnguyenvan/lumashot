@@ -50,7 +50,7 @@ jobs:
       uses: Minionguyjpro/Inno-Setup-Action@v1.2.2
       with:
         path: packaging/windows/lumashot.iss
-        options: /O+
+        options: /O+ /F"LumaShot-Setup-${{ github.ref_name }}"
 
     - name: Upload artifact
       uses: actions/upload-artifact@v3
