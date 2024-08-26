@@ -64,6 +64,6 @@ jobs:
       id: create_release
       uses: softprops/action-gh-release@v1
       with:
-        files: D:\a\lumashot\lumashot\packaging\windows\Output\LumaShot-Setup-${{ github.ref_name }}.exe
+        files: "**/Output/LumaShot-Setup-${{ github.ref_name }}.exe"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
