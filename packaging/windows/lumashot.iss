@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "LumaShot"
-#define MyAppVersion GetEnv('VERSION')
+#define MyAppVersion "1.0.0"
 #define MyAppPublisher "SkyGlow Labs"
 #define MyAppURL "https://www.lumashot.com/"
 #define MyAppExeName "lumashot.exe"
