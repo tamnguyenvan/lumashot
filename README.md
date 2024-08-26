@@ -21,11 +21,13 @@ LumaShot is an open-source desktop application designed for screen recording. Wi
 3. Compile Resources:
 
 ```bash
+# Suppose you're in lumashot/lumashot
 python compile_resources.py
 ```
 4. Run the Application:
 ```bash
-python src/main.py
+# Suppose you're in the root directory
+python -m lumashot.main
 ```
 ## Contributing
 We welcome contributions to LumaShot! If you’d like to contribute, please fork the repository and submit a pull request.
@@ -34,4 +36,4 @@ We welcome contributions to LumaShot! If you’d like to contribute, please fork
 LumaShot is released under the MIT License.
 
 ## Contact
-For any questions or issues, please contact us at email@example.com.
+For any questions or issues, please contact us at tamnvhustcc@gmail.com.
